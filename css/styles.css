@@ -1,0 +1,16 @@
+.main {
+  float: right;
+  padding: 5px;
+}
+
+.sidebar {
+
+  float: left;
+  padding: 15px;
+  background-color: lightgreen;
+}
+
+img{
+  height: 300px;
+  width: auto;
+}
