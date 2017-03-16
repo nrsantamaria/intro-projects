@@ -3,10 +3,14 @@
   background-position: center;
   color: white;
   text-align: right;
+  height: 400px;
 }
 
 h1, h3 {
   text-shadow: 5px 5px 5px black;
+}
+h1 {
+
 }
 
 ul li {
