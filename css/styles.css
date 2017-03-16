@@ -4,6 +4,10 @@
   border-radius: 0%;
 }
 
+.container {
+  width: 100%;
+}
+
 body {
   background-color: #f6f6f6;
 }
@@ -66,6 +70,7 @@ h5 {
 
 #welcome {
   border-radius: 0%;
+  text-align: left;
 }
 
 #purple {
@@ -74,4 +79,18 @@ h5 {
   padding-top: .1%;
   border-color: #ddcef2;
   border-radius: 0%;
+}
+.sidebar {
+  float: left;
+  display: block;
+  width: 141px;
+}
+#sidebar {
+  display: block;
+  width: 141px;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 2394.95px;
+    }
 }
