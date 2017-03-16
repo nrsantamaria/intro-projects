@@ -1,3 +1,29 @@
+.jumbotron {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  color: white;
+  text-align: right;
+}
+
+h1, h3 {
+  text-shadow: 5px 5px 5px black;
+}
+
 ul li {
   font-weight: bold;
+}
+
+#mind {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+#body {
+  font-family: fantasy;
+  font-size: 18px;
+}
+
+#spirit {
+  font-family: cursive;
+  font-size: 18px;
 }
