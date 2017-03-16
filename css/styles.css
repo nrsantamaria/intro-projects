@@ -32,13 +32,6 @@ ul li {
   font-size: 18px;
 }
 
-/*.row {
-  height: 453px;
-}
-.col-md-6, .panel {
-  height: 100%
-}*/
-
-/*@media screen and (min-height: 450px){
-
-}*/
+#popular {
+    margin-bottom: 27px;
+  }
