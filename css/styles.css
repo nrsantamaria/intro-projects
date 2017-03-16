@@ -92,13 +92,23 @@ h5 {
   width: 141px;
 }
 
-img {
+
+img #logo {
   width: 120px;
 }
 /*.form-control {
   position: absolute;
   left: 75%;
 }*/
+
+.fruitface {
+  float: left;
+}
+
+#fruit {
+  padding-bottom: 400px;
+}
+
 .sidebar li {
   padding: 1%;
   list-style: none;
