@@ -15,6 +15,10 @@
   float: left;
   position: fixed;
 }
+
+#showing-scary {
+  display: none;
+}
 .clickable {
   cursor: pointer;
   color: #0088cc;

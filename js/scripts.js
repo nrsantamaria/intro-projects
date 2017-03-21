@@ -6,6 +6,7 @@ $(document).ready(function() {
     $("#initially-hidden-pals").fadeToggle();
     $("#slideIn").slideToggle();
     $("#slideOut").slideToggle();
-
+    $("#hidden-scary").hide();
+    $("#showing-scary").slideToggle();
   });
 });
