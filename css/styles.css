@@ -1,4 +1,4 @@
-#initially-showing-walrus {
+/*#initially-showing-walrus {
   display: none;
 }
 
@@ -34,4 +34,19 @@
 
 .clickable2:hover {
   text-decoration: underline;
+}*/
+
+.green-background {
+  background-color: green;
+  opacity: .8;
+}
+
+.yellow-background {
+  background-color: yellow;
+  opacity: .8;
+}
+
+.red-background {
+  background-color: red;
+  opacity: .8;
 }
