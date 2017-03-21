@@ -1,0 +1,33 @@
+#initially-showing-walrus {
+  display: none;
+}
+
+#initially-showing-pals {
+  display: none;
+}
+
+#slideOut {
+  display: none;
+}
+
+#slideIn {
+  display: inline-block;
+  float: left;
+  position: fixed;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
+}
