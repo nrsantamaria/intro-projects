@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Dial-a-telegram</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Dial-a-telegram</h1>
+      </div>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="requester">What is your name?</label>
+            <input id="requester" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="recipient">What is the recipient's name?</label>
+            <input id="recipient" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="song">What is the song you would like to dedicate?</label>
+            <input id="song" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="phone-number">What is the recipient's phone number?</label>
+            <input id="phone-number" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">Enter date for the singing telegram.</label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="time">Enter time of day for singing telegram.</label>
+            <input id="time" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me my order</button>
+        </form>
+      </div>
+      <div id="order">
+        <h1>Here is your order for your singing telegram</h1>
+        <h2>Your Name: </h2><span class="requester"></span><br>
+        <h2>Your Recipient's Name: </h2><span class="recipient"></span><br>
+        <h2>Your Song: </h2><span class="song"></span><br>
+        <h2>Your Recipient's Phone Number: </h2><span class="phone-number"></span><br>
+        <h2>Your Date: </h2><span class="date"></span><br>
+        <h2>Your Time: </h2><span class="time"></span><br>
+      </div>
+    </div>
+  </body>
+</html>
