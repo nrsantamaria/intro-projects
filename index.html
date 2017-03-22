@@ -35,8 +35,12 @@
             <input id="date" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="time">Enter time of day for singing telegram.</label>
-            <input id="time" class="form-control" type="text">
+            <label for="time">Select time of day for singing telegram.</label>
+            <select class="form-control" id="time">
+              <option value="morning">Morning</option>
+              <option value="afternoon">Afternoon</option>
+              <option value"night">Night</option>
+            </select>
           </div>
           <button type="submit" class="btn">Show me my order</button>
         </form>
