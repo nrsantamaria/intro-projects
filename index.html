@@ -16,23 +16,23 @@
         <form>
           <div class="form-group">
             <label for="requester">What is your name?</label>
-            <input id="requester" class="form-control" type="text">
+            <input id="requester" class="form-control" type="text" required>
           </div>
           <div class="form-group">
             <label for="recipient">What is the recipient's name?</label>
-            <input id="recipient" class="form-control" type="text">
+            <input id="recipient" class="form-control" type="text" required>
           </div>
           <div class="form-group">
             <label for="song">What is the song you would like to dedicate?</label>
-            <input id="song" class="form-control" type="text">
+            <input id="song" class="form-control" type="text" required>
           </div>
           <div class="form-group">
             <label for="phone-number">What is the recipient's phone number?</label>
-            <input id="phone-number" class="form-control" type="text">
+            <input id="phone-number" class="form-control" type="text" required>
           </div>
           <div class="form-group">
-            <label for="date">Enter date for the singing telegram.</label>
-            <input id="date" class="form-control" type="text">
+            <label for="date">Choose date for the singing telegram.</label>
+            <input id="date" class="form-control" type="date" required>
           </div>
           <div class="form-group">
             <label for="time">Select time of day for singing telegram.</label>
@@ -46,7 +46,7 @@
         </form>
       </div>
       <div id="order">
-        <h1>Here is your order for your singing telegram</h1>
+        <h1>Here is your order for your singing telegram:</h1>
         <h2>Your Name: </h2><span class="requester"></span><br>
         <h2>Your Recipient's Name: </h2><span class="recipient"></span><br>
         <h2>Your Song: </h2><span class="song"></span><br>

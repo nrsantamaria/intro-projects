@@ -1,3 +1,13 @@
 #order {
   display: none;
 }
+
+span {
+  font-size: 26px;
+  color: #9130D9;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #ffffff;
+}
