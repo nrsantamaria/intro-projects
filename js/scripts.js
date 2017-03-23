@@ -6,7 +6,12 @@ $(document).ready(function() {
     if (food === "pie" && color === "red") {
 
     $("#brad").show();
-  } else {
+
+    } else if (food === "pizza" && color === "blue"){
+
+    $("#tom").show();
+    
+    } else {
     $("#zach").show();
   }
 
