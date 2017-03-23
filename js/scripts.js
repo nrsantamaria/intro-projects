@@ -9,14 +9,14 @@ $(document).ready(function() {
 
     if (food === "tacos" && color === "red") {
 
-    $("#brad").show();
+    $("#brad").fadeIn('slow');
 
-  } else if (age === "21-40" && vacay === "Hawaii"){
+  } else if (age === "21-40" && vacay === "Hawaii" || age === "21-40" && vacay === "Italy"){
 
-    $("#tom").show();
+    $("#tom").fadeIn('slow');
 
     } else {
-    $("#zach").show();
+    $("#zach").fadeIn('slow');
   }
 
   event.preventDefault();

@@ -32,3 +32,9 @@ body {
   font-size: 30px;
   font-weight: bolder;
 }
+
+.btn:active {
+  background: #FDD2D9;
+  box-shadow: none;
+  outline: 0px;
+}
