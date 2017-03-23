@@ -2,19 +2,23 @@ $(document).ready(function() {
   $("form#celebrity").submit(function(event) {
     var food = $("select#food").val();
     var color = $("select#color").val();
+    var age = $("select#age").val();
+    var vacay = $("select#vacay").val();
 
-    if (food === "pie" && color === "red") {
+    $(".celebrity-names").hide();
+
+    if (food === "tacos" && color === "red") {
 
     $("#brad").show();
 
-    } else if (food === "pizza" && color === "blue"){
+  } else if (age === "21-40" && vacay === "Hawaii"){
 
     $("#tom").show();
-    
+
     } else {
     $("#zach").show();
   }
 
-    event.preventDefault();
+  event.preventDefault();
   });
 });

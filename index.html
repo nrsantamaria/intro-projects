@@ -9,27 +9,53 @@
   </head>
   <body>
     <div class="container">
-      <h1>Celebrity Dating Quiz</h1>
+      <div class="jumbotron">
+        <h1>Celebrity Dating Quiz</h1>
+      </div>
       <form id="celebrity">
         <label for="food">What is Your Favorite Food?</label>
+        <br>
         <select id="food">
           <option value="pie">Pie</option>
           <option value="pizza">Pizza</option>
           <option value="tacos">Tacos</option>
         </select>
         <br>
-        <label for="food">What is Your Favorite Color?</label>
+        <br>
+        <label for="color">What is Your Favorite Color?</label>
+        <br>
         <select id="color">
           <option value="red">Red</option>
           <option value="green">Green</option>
-          <option value="blue">blue</option>
+          <option value="blue">Blue</option>
         </select>
-      </div>
-      <button type="submit" class="btn">Show me my celbrity</button>
+        <br>
+        <br>
+        <label for="vacay">What is Dream Vacation Destination?</label>
+        <br>
+        <select id="vacay">
+          <option value="Hawaii">Hawaii</option>
+          <option value="Italy">Italy</option>
+          <option value="Mexico">Mexico</option>
+        </select>
+        <br>
+        <br>
+        <label for="age">How Old are You?</label>
+        <br>
+        <select id="age">
+          <option value="0-20">0-20</option>
+          <option value="21-40">21-40</option>
+          <option value="41+">41+</option>
+        </select>
+        <br>
+        <br>
+      <button type="submit" class="btn">Show me my celebrity!</button>
+      <br>
+      <br>
     </form>
-    <div id="celebrity-names">
-        <p id="brad">Brad Pitt</p>
-        <p id="zach">Zach Galifianakis</p>
-        <p id="tom">Tom Cruise</p>
+        <p class="celebrity-names" id="brad"><img src="img/brad.jpg">Congratulations! You are dating Brad Pitt!</p>
+        <p class="celebrity-names" id="zach"><img src="img/zach.jpg">Sorry...You got Zach Galifianakis...</p>
+        <p class="celebrity-names" id="tom"><img src="img/tom.jpg">Not bad. You are dating Tom Cruise.</p>
+    </div>
   </body>
 </html>
