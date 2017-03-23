@@ -14,8 +14,7 @@
       <p>To give you a quote, we need to know a little about you:</p>
 
       <form id="insurance">
-        <label for="age">Age</label>
-        <input id="age" type="text">
+        <input id="age" type="text" placeholder="Age" required>
         <br>
         <label for="gender">Gender</label>
         <select id="gender">
@@ -27,31 +26,29 @@
         <br>
         <br>
         <label for="car-color">What color is your car?</label>
-          <div id="radio-color">
-            <div class="radio">
-              <label>
-                <input type="radio" name="color" value="white" checked>
-                white
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="color" value="black" >
-                Black
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="color" value="red" >
-                Red
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="color" value="other" >
-                Other
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" value="white">
+              white
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" value="black" >
+              Black
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" value="red" >
+              Red
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="color" value="other" >
+              Other
+            </label>
           </div>
         <button type="submit" class="btn">Calculate my quote</button>
       </form>

@@ -4,15 +4,17 @@ $(document).ready(function() {
     var gender = $("select#gender").val();
     var color = $("input:radio[name=color]:checked").val();
 
-
-
-  var quote = (100 - age) * 3;
-  if (gender === "male" && age < 26 && color === "red") {
-    quote +=250;
-  }
-
+  if (color) {
+    var quote = (100 - age) * 3;
+    if (gender === "male" && age < 26 && color === "red") {
+      quote +=250;
+    }
     $("#rate").empty().append(quote);
     $("#quote").show();
+  }
+    else {
+      $(".radio").addClass("has-error");
+    }
 
     event.preventDefault();
   });
