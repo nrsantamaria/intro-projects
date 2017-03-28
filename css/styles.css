@@ -1,7 +1,11 @@
-#work-responses {
+#bad-responses {
   display: none;
 }
 
-#fun-responses {
+#good-responses {
+  display: none;
+}
+
+.fortunes {
   display: none;
 }
