@@ -1,0 +1,52 @@
+/*#initially-showing-walrus {
+  display: none;
+}
+
+#initially-showing-pals {
+  display: none;
+}
+
+#slideOut {
+  display: none;
+}
+
+#slideIn {
+  display: inline-block;
+  float: left;
+  position: fixed;
+}
+
+#showing-scary {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
+}*/
+
+.green-background {
+  background-color: green;
+  opacity: .8;
+}
+
+.yellow-background {
+  background-color: yellow;
+  opacity: .8;
+}
+
+.red-background {
+  background-color: red;
+  opacity: .8;
+}
